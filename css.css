@@ -1,0 +1,313 @@
+* {
+    font-family: system-ui;
+    margin: 0px;
+}
+.colors{
+    color: rgb(31 70 93);
+}
+body{
+    background-color: rgb(221, 221, 221);
+}
+.headdiv {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; */
+    /*  */
+    /* padding: 24px 150px; */
+    /* margin: ; */
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    /* background-repeat: no-repeat; */
+    /* flex: 2; */
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+    min-width: 392px;
+    margin: 33px;
+    padding: 0px 0px 26px 0px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    /* height: auto; */
+    float: left;
+}
+.firstblock{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.image-container {
+    /* background-image: url("shivam.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: darkolivegreen;
+    padding: 50px 0px 50px 0px; */
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: 0%;
+    /* height: 239px; */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+}
+
+.myimage {
+    width: 100%;
+    /* width: 0%; */
+    /* padding-top: 0px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.myimage:hover {
+    background-color: rgba(245, 245, 245, 0.521);
+}
+
+.name {
+        /* padding-top: 127px; */
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        /* right: 50%; */
+        transform: translate(-50%, -50%);
+}
+
+.content {
+    padding-top: 18px;
+    font-size: 19px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: system-ui;
+    color: rgb(8, 187, 148);
+    /* background-color: black; */
+}
+
+/* .name:hover{
+    background-color: black;
+} */
+
+.textstyle {
+    padding: 7px 62px;
+    color: rgb(58, 54, 54);
+    font-weight: bold;
+    font-family: system-ui;
+}
+hr{
+    margin: 0px 20px;
+    color: rgb(12, 117, 121);
+}
+.content1 {
+    /* border-bottom: 2px solid black; */
+    margin: 35px 12px;
+    /* padding-bottom: 30px; */
+}
+@media(max-width:984px) {
+    .left {
+        width: auto!important;
+        float: none!important;
+        margin: 33px !important;
+        /* transition: width 0.5s ease-in; */
+    }
+    .containerX {
+        margin: 33px !important;
+    }
+}
+
+
+.emailp {
+    padding-right: 10px;
+}
+
+.skills {
+    color: rgb(8, 187, 148);
+    font-size: larger;
+    padding-left: 50px;
+}
+p{
+    font-family: system-ui;
+}
+.cpp {
+    background-color: rgb(253, 253, 253);
+    border-radius: 15px;
+    margin: 0px 70px;
+    border: 2px solid rgb(12, 117, 121);
+    font-family: system-ui;
+    font-weight: bold;
+    color:rgb(8, 187, 148);
+    ;
+}
+
+
+.add:hover{
+    background-color: rgb(8, 228, 209);
+    transition: background-color 2s ease,color 1s ease;
+    color: white;
+
+}
+
+.cppdiv1 {
+    background-color: rgb(8, 187, 148);
+    border-radius: 15px;
+    /* padding-right: 25px; */
+    margin-right: 80px;
+    text-align: center;
+    transition: background-color 2s ease,color 1s ease;
+}
+.cppdiv2 {
+    background-color: rgb(8, 187, 148);
+    border-radius: 15px;
+    /* padding-right: 25px; */
+    margin-right: 30px;
+    text-align: center;
+    transition: background-color 2s ease,color 1s ease;
+}
+
+.cppdiv3 {
+    background-color: rgb(8, 187, 148);
+    border-radius: 15px;
+    /* padding-right: 25px; */
+    margin-right: 100px;
+    text-align: center;
+    transition: background-color 2s ease,color 1s ease;
+}
+
+.cppdiv4 {
+    background-color: rgb(8, 187, 148);
+    border-radius: 15px;
+    /* padding-right: 25px; */
+    margin-right: 80px;
+    text-align: center;
+    transition: background-color 2s ease,color 1s ease;
+}
+.lang{
+    color: rgb(8, 187, 148);
+    font-size: larger;
+    padding-left: 50px;
+}
+.langs{
+    padding: 13px 101px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    /* flex: 3; */
+    min-width:460px ;
+    /* margin-top: 26px;
+    margin-right: 31px; */
+    /* background-color: rgb(255, 255, 255); */
+    /* justify-content: space-around; */
+}
+
+.containerX {
+    /* padding-bottom:10px ; */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    align-items: top;
+    background-color: #fff;
+    /* margin-bottom: 31px; */
+    margin: 33px;
+}
+
+.Xheader {
+    background-color: rgb(32, 173, 154);
+    margin-bottom: 36px;
+    padding: 1px 0px;
+}
+
+h1 {
+    padding: 20px 0px 20px 74px;
+    color: rgb(255, 255, 255);
+}
+.containercontent{
+    padding: 0px 89px 39px 89px;
+}
+.vv{
+    color: black;
+    font-weight: bolder;
+    padding: 0px 0px 5px 0px;
+}
+.subhead{
+    padding: 0px 38px;
+    color: rgb(85, 83, 83);
+    font-weight: bold;
+}
+.sshead{
+    padding: 0px 39px;
+    color: rgb(73, 72, 72);
+}
+.edu {
+    /* padding-bottom:10px ; */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    align-items: top;
+    background-color: #fff;
+}
+
+.eduheader {
+    background-color: rgb(32, 173, 154);
+    margin-bottom: 83px;
+    padding: 1px 0px;
+}
+.certification{
+    padding: 0px 175px 20px 175px;
+    background-color: rgb(221, 221, 221);
+}
+.mm{
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+.certhead{
+    padding: 29px 0px
+}
+.marq{
+    padding: 24px 100px;
+}
+.imgh{
+    height: 200px;
+    width: 200px;
+}
+.marqcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.achievements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    margin: 37px 0px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    flex-wrap: wrap;
+    padding: 18px;
+    
+}
+.demo1{
+    background-color:rgb(8, 187, 148) ;
+    margin: 12px;
+    padding: 21px 76px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    font-family: system-ui;
+    font-weight: bolder;
+    flex: 1;
+    text-align: center;
+    /* width: 0px; */
+}
+.certdivision{
+    background-color: rgb(189, 186, 184);
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
